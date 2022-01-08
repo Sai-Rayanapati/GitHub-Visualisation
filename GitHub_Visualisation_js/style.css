@@ -1,0 +1,54 @@
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title {
+    border-style: solid ;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 1px 0.5px 0.5px rgb(138, 134, 134);
+    margin: auto;
+    background-color:  rgb(233, 231, 227);
+}
+.graph {
+    display:inline-block;
+    border-style: solid ;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 1px 0.5px 0.5px rgb(255, 255, 255);
+    align-content: center;
+    background-color: rgb(233, 231, 227);
+}
+
+.centre{
+    text-align: center;
+    align-content: center;
+}
+
+.font30{
+    font-size: 25px;
+}
+
+.alignleft{
+    float: left;
+}
+
+.font15{
+    font-size: 20px;
+}
+
+.image{
+    padding: 10px;
+    border-radius: 20px;
+}
