@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=\, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>GitHub API</title>
+</head>
+
+<body style="background-color: bisque;">
+    <h1>
+        GitHub API Visualisation
+    </h1>
+    <div>
+        <script>
+            mainFunction();
+        </script>
+    </div>
+
+    <div class="centre">
+        <div class="title" style="width: 700px;">
+            <div class="row" width="190" height="130">
+                <h2>User Data </h2>
+                <div class="font30">
+                    <p class="text-right" id="name"></p>
+                </div>
+                <div class="alignleft">
+                    <img class="image" id="img" src='' width="200" height="200">
+                </div>
+            </div>
+            <div class="row">
+                <div class="font15">
+                    <p class="text-right" id="followers"></p>
+                    <p class="text-right" id="following"></p>
+                    <p class="text-right" id="public_gists"></p>
+                    <p class="text-right" id="public_repos"></p>
+                    <p class="text-right" id="created_at"></p>
+                </div>
+            </div>
+        </div>
+        <div class="graph" style="width: 700px;">
+            <canvas id="language"></canvas>
+        </div>
+        <div class="graph" style="width: 700px;">
+            <canvas id="repo"></canvas>
+        </div>
+        <div class="graph" style="width: 700px;">
+            <canvas id="commits"></canvas>
+        </div>
+    </div>>
+</body>
+</html>
